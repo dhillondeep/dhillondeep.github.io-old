@@ -271,7 +271,7 @@
     @supports (display:grid) {
         .mdc-layout-grid__cell--span-8, .mdc-layout-grid__cell--span-8-tablet.mdc-layout-grid__cell--span-8-tablet {
             width: auto;
-            grid-column-end: span 8
+            grid-column-end: span 8;
         }
     }.mdc-layout-grid__cell--span-9, .mdc-layout-grid__cell--span-9-tablet.mdc-layout-grid__cell--span-9-tablet {
          width: calc(100% - 16px);
@@ -970,13 +970,13 @@ header {
     transform: rotate(-20deg)
 }
 
-.talks-wrapper {
+.experience-wrapper {
     min-height: 100vh;
     display: flex;
     align-items: center
 }
 
-.talks-wrapper h2 {
+.experience-wrapper h2 {
     margin-top: 30px;
     margin-bottom: 0
 }
@@ -995,7 +995,7 @@ header {
     padding-right: 2px
 }
 
-.talks-wrapper .btn-primary-lg {
+.experience-wrapper .btn-primary-lg {
     margin-bottom: 30px
 }
 
@@ -1136,7 +1136,7 @@ p {
     --mdc-layout-grid-gutter: 50px
 }
 
-.talks-grid, .testimonials {
+.experience-grid, .testimonials {
     --mdc-layout-grid-margin: 10px
 }
 
@@ -1149,7 +1149,7 @@ p {
         grid-column-end: span 5
     }
 
-    .talks-grid .mdc-layout-grid__cell--span-4, .testimonials-grid .mdc-layout-grid__cell--span-4 {
+    .experience-grid .mdc-layout-grid__cell--span-4, .testimonials-grid .mdc-layout-grid__cell--span-4 {
         grid-column-end: span 4
     }
 
@@ -1199,7 +1199,7 @@ p {
         padding-right: 5%
     }
 
-    .talks-grid .mdc-layout-grid__cell--span-4, .testimonials-grid .mdc-layout-grid__cell--span-4 {
+    .experience-grid .mdc-layout-grid__cell--span-4, .testimonials-grid .mdc-layout-grid__cell--span-4 {
         grid-column-end: span 8
     }
 
@@ -1359,5 +1359,12 @@ body.no-scroll {
 
     .testimonial {
         height: auto
+    }
+}
+
+@media (max-width: 840px) {
+    #main-image{
+        display: block;
+        margin: 0 auto;
     }
 }
