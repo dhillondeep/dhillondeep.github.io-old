@@ -1255,3 +1255,8 @@ body.no-scroll {
     font-family: Open Sans, sans-serif;
     color: var(--grey);
 }
+
+
+#visited-color {
+    color: blue; /*color of the non visited link*/
+}
