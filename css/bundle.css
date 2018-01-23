@@ -20,6 +20,11 @@
     padding: calc(var(--mdc-layout-grid-margin, 16px) - var(--mdc-layout-grid-gutter, 16px) / 2);
 }
 
+#seem-my-resume{
+    margin-top: -80px;
+    vertical-align: top;
+}
+
 .mdc-layout-grid__cell {
     margin: 8px;
     margin: calc(var(--mdc-layout-grid-gutter, 16px) / 2);
