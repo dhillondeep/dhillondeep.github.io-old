@@ -1,0 +1,5 @@
+User-agent:*
+Disallow:/images/
+Disallow:/resumes/
+Disallow:/css/
+Allow:/index.html
