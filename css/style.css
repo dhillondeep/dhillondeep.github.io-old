@@ -311,7 +311,6 @@ a.toc-link:hover {
     -webkit-transition: -webkit-transform .4s ease;
     -moz-transition: -moz-transform .4s ease;
     -o-transition: -o-transform .4s ease;
-    -ms-transition: -ms-transform .4s ease;
     transition: transform .4s ease;
 }
 
